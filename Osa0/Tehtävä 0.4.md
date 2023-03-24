@@ -1,10 +1,3 @@
 Sivun avaaminen ja uuden muistiinpanon luominen lomakkeen painikkeella:
-'''mermaid
-sequenceDiagram
-    Selain->>+Palvelin: GET HTML/CSS/JS tiedostot
-    Palvelin-->>-Selain: HTML/CSS/JS selaimelle
-    Selain->>+Palvelin: JS-koodi hakee JSON-muodossa olevan listan
-    Palvelin-->>-Selain: Callback-funktio renderöi listan
-    Selain->>+Palvelin: Lomakkeen painike lähettää uuden syötetyn datan
-    Palvelin-->>-Selain: Sivun, tyylitiedoston, JS-koodin ja data.JSON lataus
-'''
+
+![mermaid-diagram-2023-03-24-155627](https://user-images.githubusercontent.com/128053251/227540867-b1369af8-a76a-402a-8e4b-2855dc9181c8.png)
